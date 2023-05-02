@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1eaa0acf2d32ec040b206eb1ad119818
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {fileID: 8793647082192157197, guid: 4d69568a8c9d031449aa3d7ddfe190fb,
+      type: 3}
+  - restartCanvas: {instanceID: 0}
+  - startPoint: {fileID: 388437423060071341, guid: 30a225805df5ca94eaab69702394293d,
+      type: 3}
+  - nextCanvas: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

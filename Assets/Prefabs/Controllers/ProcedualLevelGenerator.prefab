@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5330503086697124355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5330503086697124353}
+  - component: {fileID: 5330503086697124354}
+  m_Layer: 0
+  m_Name: ProcedualLevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5330503086697124353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5330503086697124355}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.583792, y: -156.89401, z: 127.239655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5330503086697124354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5330503086697124355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd41d65816a45c749a8016b2f7b2f767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTile: {fileID: 1990298405951603134, guid: 7ac76f6d4a6a89a44bcb010da569f046,
+    type: 3}
+  endTile: {fileID: 7493870417924035604, guid: 47717e3d7167dc548bca1533db481c86, type: 3}
+  forwardTile: {fileID: 268029146157868424, guid: eb2d0e34099aeab4395294500e613ec3,
+    type: 3}
+  tTile: {fileID: 4058784907278172408, guid: add953b08f119404d93358df73963c5e, type: 3}
+  rightTile: {fileID: 2994081707905615880, guid: f172c8885f8456c4e8aab6808f76c0fb,
+    type: 3}
+  leftTile: {fileID: 7763323878400149432, guid: b0f0945b16d45f245b1eb4bb3cb3f6d8,
+    type: 3}
+  leftCornerTile: {fileID: 4008963483782822432, guid: fdadede4a4cfe64408958c9e529e5fa3,
+    type: 3}
+  leftTopCornerTile: {fileID: 8031033746961620598, guid: ce4e7d4deae93c8448beaafc9f917c15,
+    type: 3}
+  rightTopCornerTile: {fileID: 3839372309796456576, guid: 0d3875b3c25f8b74db383bbdca22ae07,
+    type: 3}
+  rightCornerTile: {fileID: 7871800670603462854, guid: a406ef348f33b7045a7a01675acad117,
+    type: 3}
+  plattformUpTile: {fileID: 5861020024471055266, guid: 6d4fbf65a8e036a4089b844c6e4d27f3,
+    type: 3}
+  rightHammerTile: {fileID: 1649640858404308512, guid: d229845aecdeb354b9a76b91505c0801,
+    type: 3}
+  leftHammerTile: {fileID: 9055865162859820990, guid: 3a8715df85df5ec4c82dc33972f3a805,
+    type: 3}
+  leftPlattformTile: {fileID: 7012703454754334541, guid: dd9bcbd883597974fa78ae07b344f64d,
+    type: 3}
+  rightPlattformTile: {fileID: 5478895138269931460, guid: 9abb950730e6a0a49ad5c253905faea5,
+    type: 3}
+  wallJumpTile: {fileID: 2148359144463468259, guid: 2af89cc8125a7f14d9dcaf6632034231,
+    type: 3}
+  waypoint: {fileID: 8236421492307607619, guid: e08ac33d480dade45a29bf0b7cd37c75,
+    type: 3}
+  offsetCameraWaypointZ: -20
+  offsetCameraWaypointY: 20
